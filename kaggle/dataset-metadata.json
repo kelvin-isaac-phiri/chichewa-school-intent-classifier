@@ -1,6 +1,6 @@
 {
-  "title": "Chichewa School Intent Messages",
-  "id": "CHANGE_ME/chichewa-school-intents",
+  "title": "chichewa-school-intent-classifier",
+  "id": "CHANGE_ME/chichewa-school-intent-classifier",
   "licenses": [{ "name": "CC-BY-SA-4.0" }],
   "isPrivate": true,
   "keywords": ["nlp", "text classification", "africa", "education", "chichewa"],
