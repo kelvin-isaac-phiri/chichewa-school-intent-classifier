@@ -1,0 +1,13 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+model_output/
+data/
+*.pyc
+additions.json
+_build_additions.py
+data.json
+keep
+kaggle/data.json
+.kaggle/

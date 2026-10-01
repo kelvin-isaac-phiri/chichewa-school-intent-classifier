@@ -1,0 +1,9 @@
+{
+  "title": "Chichewa School Intent Messages",
+  "id": "CHANGE_ME/chichewa-school-intents",
+  "licenses": [{ "name": "CC-BY-SA-4.0" }],
+  "isPrivate": true,
+  "keywords": ["nlp", "text classification", "africa", "education", "chichewa"],
+  "subtitle": "Labeled Chichewa school messages for 8 intent classes.",
+  "description": "Private dataset of Chichewa (plus school English) messages labeled as fees, admissions, results, general_information, password_reset, timetable, attendance, or courses. Used to fine-tune Afro-XLMR. Code lives on GitHub. This Kaggle dataset stays private until I publish it."
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "text": "Kodi sukulu yanu imalipiritsa ndalama zingati pa term iliyonse?",
+    "label": "fees"
+  },
+  {
+    "text": "Ndikufuna kudziwa fee ya mwana wanga.",
+    "label": "fees"
+  },
+  {
+    "text": "Kodi zofunikira polembetsa mwana ndi ziti?",
+    "label": "admissions"
+  },
+  {
+    "text": "Ndikufuna kulembetsa mwana wanga kusukuluyi.",
+    "label": "admissions"
+  },
+  {
+    "text": "Kodi ndingawone kuti zotsatira za mwana wanga?",
+    "label": "results"
+  },
+  {
+    "text": "Ndikufuna kuwona grade yanga ya Mathematics.",
+    "label": "results"
+  },
+  {
+    "text": "Kodi sukulu yanu ili kuti?",
+    "label": "general_information"
+  },
+  {
+    "text": "Ndikufuna kudziwa zambiri za sukulu yanu.",
+    "label": "general_information"
+  },
+  {
+    "text": "Kodi ndingasinthe bwanji password yanga?",
+    "label": "password_reset"
+  },
+  {
+    "text": "Ndayiwala password yanga ndipo sindingathe kulowa.",
+    "label": "password_reset"
+  },
+  {
+    "text": "Kodi ndingawone timetable yanga kuti?",
+    "label": "timetable"
+  },
+  {
+    "text": "Kodi timetable ya class yanga ikusowa pa account.",
+    "label": "timetable"
+  },
+  {
+    "text": "Kodi ndingawone bwanji attendance yanga?",
+    "label": "attendance"
+  },
+  {
+    "text": "Ndalembedwa kuti sindinabwere koma ndinalipo.",
+    "label": "attendance"
+  },
+  {
+    "text": "Kodi sukulu imaphunzitsa maphunziro ati?",
+    "label": "courses"
+  },
+  {
+    "text": "Ndikufuna kudziwa zambiri za subjects zomwe zimaphunzitsidwa.",
+    "label": "courses"
+  }
+]
