@@ -45,6 +45,10 @@ def show(text: str, rows) -> None:
         print(f"  {row['label']}: {row['score']:.4f}")
 
 
+def top_label(output) -> str:
+    return max(rows_from(output), key=lambda row: row["score"])["label"]
+
+
 def main() -> None:
     p = argparse.ArgumentParser(description="Predict or evaluate the fine-tuned model.")
     p.add_argument("--model-dir", default="model_output")
@@ -78,7 +82,7 @@ def main() -> None:
     rows = load(test_file)
     texts = [r["text"] for r in rows]
     y_true = [r["label"] for r in rows]
-    y_pred = [r["label"] for r in clf(model_dir)(texts, batch_size=32)]
+    y_pred = [top_label(r) for r in clf(model_dir, top_k=1)(texts, batch_size=32)]
 
     print(f"{test_file}: {len(texts)} examples")
     print(f"Accuracy: {accuracy_score(y_true, y_pred):.4f}\n")

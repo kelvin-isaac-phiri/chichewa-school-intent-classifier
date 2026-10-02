@@ -11,3 +11,4 @@ data.json
 keep
 kaggle/data.json
 .kaggle/
+kaggle/push.sh
